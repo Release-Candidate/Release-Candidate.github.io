@@ -31,6 +31,10 @@ weight = 99
 [main.params]
 action = "search"
 
+[[main]]
+name = "About Me"
+pageRef = "about"
+weight = 98
 
 [[main]]
 identifier = "locale"

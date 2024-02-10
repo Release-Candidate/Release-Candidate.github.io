@@ -10,10 +10,10 @@ title = 'Release Candidate'
 dateFormat = "2 January 2006"
 
 # mainSections = ["section1", "section2"]
-# description = "My awesome website"
+#description = "My awesome website"
 
 [params.author]
-# image = "img/author.jpg"
+image = "rc_logo.svg"
 # headline = "I'm only human"
 # bio = "A little bit about you"
 name = "Roland Csaszar"
@@ -31,7 +31,7 @@ links = [
   #   { flickr = "https://www.flickr.com/photos/username/" },
   #   { foursquare = "https://foursquare.com/username" },
   { github = "https://github.com/Release-Candidate" },
-  { gitlab = "https://gitlab.com/Release-Candidate" },
+  { gitlab = "https://gitlab.com/ReleaseCandidate" },
   #   { google = "https://www.google.com/" },
   #   { google-scholar = "https://scholar.google.com/citations?user=user-id" },
   #   { hashnode = "https://username.hashnode.dev" },
