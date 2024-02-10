@@ -15,7 +15,7 @@ dateFormat = "2 January 2006"
 [params.author]
 image = "rc_logo.svg"
 # headline = "I'm only human"
-# bio = "A little bit about you"
+bio = "A Programmer."
 name = "Roland Csaszar"
 links = [
   { email = "mailto:rec@gmx.at" },
