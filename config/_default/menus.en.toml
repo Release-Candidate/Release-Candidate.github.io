@@ -22,7 +22,7 @@ weight = 99
 action = "search"
 
 [[main]]
-name = "About Me"
+name = "About"
 pageRef = "about"
 weight = 98
 

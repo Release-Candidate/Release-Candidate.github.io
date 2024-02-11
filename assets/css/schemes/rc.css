@@ -12,28 +12,28 @@
     --color-neutral-800: 41, 37, 36;
     --color-neutral-900: 28, 25, 23;
     --color-neutral-950: 12, 10, 9;
-    /* Lime */
-    --color-primary-50: 247, 254, 231;
-    --color-primary-100: 236, 252, 203;
-    --color-primary-200: 217, 249, 157;
-    --color-primary-300: 190, 242, 100;
-    --color-primary-400: 163, 230, 53;
-    --color-primary-500: 132, 204, 22;
-    --color-primary-600: 101, 163, 13;
-    --color-primary-700: 77, 124, 15;
-    --color-primary-800: 63, 98, 18;
-    --color-primary-900: 54, 83, 20;
-    --color-primary-950: 26, 46, 5;
-    /* Emerald */
-    --color-secondary-50: 236, 253, 245;
-    --color-secondary-100: 209, 250, 229;
-    --color-secondary-200: 167, 243, 208;
-    --color-secondary-300: 110, 231, 183;
-    --color-secondary-400: 52, 211, 153;
-    --color-secondary-500: 16, 185, 129;
-    --color-secondary-600: 5, 150, 105;
-    --color-secondary-700: 4, 120, 87;
-    --color-secondary-800: 6, 95, 70;
-    --color-secondary-900: 6, 78, 59;
-    --color-secondary-950: 2, 44, 34;
+    /* Green */
+    --color-primary-50: 237, 255, 241;
+    --color-primary-100: 213, 255, 224;
+    --color-primary-200: 174, 255, 195;
+    --color-primary-300: 112, 255, 149;
+    --color-primary-400: 43, 253, 95;
+    --color-primary-500: 0, 255, 64;
+    --color-primary-600: 0, 192, 44;
+    --color-primary-700: 0, 150, 37;
+    --color-primary-800: 6, 117, 35;
+    --color-primary-900: 7, 96, 32;
+    --color-primary-950: 0, 55, 15;
+    /* yellow */
+    --color-secondary-50: 250, 255, 231;
+    --color-secondary-100: 241, 255, 193;
+    --color-secondary-200: 233, 255, 134;
+    --color-secondary-300: 228, 255, 65;
+    --color-secondary-400: 233, 255, 13;
+    --color-secondary-500: 245, 255, 0;
+    --color-secondary-600: 209, 199, 0;
+    --color-secondary-700: 166, 145, 2;
+    --color-secondary-800: 137, 113, 10;
+    --color-secondary-900: 116, 92, 15;
+    --color-secondary-950: 68, 50, 4;
 }
