@@ -53,16 +53,16 @@ showTaxonomies = false
 showWordCount = false
 showComments = false
 sharingLinks = [
-  "facebook",
-  "twitter",
-  "mastodon",
-  "pinterest",
-  "reddit",
-  "linkedin",
-  "email",
-  "telegram",
-  "line",
-  "weibo",
+  # "facebook",
+  # "twitter",
+  # "mastodon",
+  # "pinterest",
+  # "reddit",
+  # "linkedin",
+  # "email",
+  # "telegram",
+  # "line",
+  # "weibo",
 ]
 
 [list]

@@ -3,11 +3,12 @@
 
 [goldmark]
 [goldmark.renderer]
-  unsafe = true
+unsafe = true
 
 [highlight]
-  noClasses = false
+noClasses = false
 
+# Disable table of contents generation for now, the colors in dark mode are off.
 [tableOfContents]
-  startLevel = 2
-  endLevel = 4
+startLevel = 0
+endLevel = 0

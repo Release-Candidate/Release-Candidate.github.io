@@ -9,6 +9,7 @@ title = 'Release Candidate'
 enableRobotsTXT = true
 paginate = 10
 summaryLength = 0
+toc = false
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
