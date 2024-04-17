@@ -23,13 +23,25 @@ date = 2024-02-10T16:20:24+01:00
 
 Hi!
 
-My name is Roland Csaszar (pronouns: he/him/his) and I'm getting paid as a Linux C++ developer for almost 20 years now.
+My name is Roland Csaszar (pronouns: he/him).
 
-As an Emacs user of more than 20 years I made the switch to VS Code some time in fall of 2021.<br>
+Some random facts about me and opinions of mine to give you a first impression, if that's why you are here for:
+
+- I'm getting paid as a Linux C and C++ developer for almost 20 years now.
+- At the job, apart from C(++), I do use TypeScript and Go for "web stuff" and Python and Shell for "scripting stuff". Maintaining -- and before that, creating -- the Ubuntu based Linux distribution some of our teams use is also an important part of my work.
+- Learning, using and doing new stuff I **really** do like, not just coding related, but in general. That's why most of the projects exist at all, even if some are just tools my wife or I needed. That's also why you won't see much C and almost no C++ in my projects.
+- The software I use and build shall be free or open-source software, if possible.
+- In my opinion, FOSS shall run on e.g. Windows and MacOS too, not just on *BSD and Linux, if that makes sense. That's at least what I always try to do, and why I try to avoid using platform specific functions, libraries or languages. Supporting iOS is a problem for me though, because of the need to join Apple's Developer Program.
+- I like writing Haskell and Go programs, obviously for different reasons. Both enable to write different kinds of "elegant" code, but with the temptation to over-abstract code in Haskell. I've grown to prefer "straightforward" solutions to general ones, if possible - I did already say that I've been maintaining C++ programs for a long time, did I? And the tooling for Go - especially the LSP and the integration in VS Code - is just great and works reliably and performant even in bigger code bases like the Go compiler (I'm currently writing a compiler for my own language in Go, but it'll take some time until that will appear here if at all).
+- A great part of the programs and libraries are written in TypeScript (JavaScript) or Python. Because JavaScript and TypeScript are nice languages I like to use and because of Python's standard library. I generally realized I **really** do prefer languages with a big, usable standard library -- another reason why I began to use Go.
+- About other languages that did at least interest me enough to try them: I've also written code (or proofs) in Rust, Fortran, Idris 2 and Rocq (which had been called Coq) and dabbled a bit in [Clojure](https://github.com/Release-Candidate/Clojure-Template), Racket, [Common Lisp](https://release-candidate.github.io/Lisbonacci/) and Chapel 2.
+- As an Emacs user of more than 20 years I made the switch to VS Code some time in fall of 2021.<br>
 *How is that in line with being a proponent of "free as in speech"?*
-Yes, it's complicated.[^1].
+Yes, it's complicated...
+- I do use (neo)vi(m) on remote hosts via SSH. And despite using it for decades now, I still never use anything but the most basic commands and key bindings. Why is there a vi mode for Emacs (and just about any text editor) but no non-modal mode with sane key-bindings for (neo)vi(m)? 😈 🧌 *Oh, look, a Gen Xer using emojis!🙄*
 
-[^1]: Actions by Microsoft like in this PR [https://github.com/dotnet-foundation/Home/discussions/40](https://github.com/dotnet-foundation/Home/discussions/40) leading to this discussion [https://github.com/dotnet-foundation/Home/discussions/60](https://github.com/dotnet-foundation/Home/discussions/60) or (temporary) removing hot-reload in the OSS .Net 6 in favour of Visual Studio [https://github.com/dotnet/sdk/pull/22217](https://github.com/dotnet/sdk/pull/22217) were reasons why I stopped using .Net and F# at all. And important extensions like the remote development stuff (SSH, Docker, ...) Python and C# LSPs and extensions being closed source does not help me liking MS' way either.
+Anyways, if you want to see what I've spent my spare time on when programming and doing something else than what's my (usual) job, see below. Projects are publicly available only if I think other people could use them. So I did not add stuff like for example using Rocq (formerly known as Coq) with [Software Foundations](https://softwarefoundations.cis.upenn.edu/), going through [Type-Driven Development with Idris](https://www.manning.com/books/type-driven-development-with-idris) with Idris 2 and similar. But I **do** recommend you take a at least look at these two, even if the result of doing the Idris examples is just to get some arguments why adding dependent types to GHC is actually a bad idea.
+There are also no projects online which are too early in development or my be never finished (like a compiler for my own programming language or a build system in Python). Whereas my dabbling with [Flix](#flix-programming-language-projects-flix) and [WASM GC](#wasm-web-assembly-gc-project-wasm) is included, because there isn't much code written in Flix or WASM GC available at all.
 
 ## Projects
 
@@ -37,6 +49,18 @@ All open source projects are hosted on [https://github.com/Release-Candidate/](h
 I also use a GitLab account, which is mainly used to file bug reports and make merge requests: [https://gitlab.com/ReleaseCandidate](https://gitlab.com/ReleaseCandidate).
 
 The list of my "most important" (whatever that means) open source projects, roughly in order of number of users is below. Smaller stuff that isn't being mentioned below can by found at [GitHub - List of my Repositories](https://github.com/Release-Candidate?tab=repositories).
+
+[VS Code and VSCodium Extensions (TypeScript)](#vs-code-and-vscodium-extensions-typescript)<br>
+[PureScript Projects (PureScript)](#purescript-projects-purescript)<br>
+[Program To Convert A Directory Of Obsidian Notes To Org-Mode Notes (Python)](#program-to-convert-a-directory-of-obsidian-notes-to-org-mode-notes-python)<br>
+[Browser Extensions (JavaScript)](#browser-extensions-javascript)<br>
+[Buck 2 Build System (Starlark, Python)](#buck-2-build-system-starlark-python)<br>
+[Python Converter for Maya Tzolk’in Dates (Python)](#python-converter-for-maya-tzolkin-dates-python)<br>
+[Smartphone Apps and a Cross-Platform GUI App (F#)](#smartphone-apps-and-a-cross-platform-gui-app-f)<br>
+[Go Projects (Go)](#go-projects-go)<br>
+[Performance Optimizations (Go, Haskell, C)](#performance-optimizations-go-haskell-c)<br>
+[Flix (Programming Language) Projects (Flix)](#flix-programming-language-projects-flix)<br>
+[WASM (Web Assembly) GC Project (WASM)](#wasm-web-assembly-gc-project-wasm)<br>
 
 ### VS Code and VSCodium Extensions (TypeScript)
 
