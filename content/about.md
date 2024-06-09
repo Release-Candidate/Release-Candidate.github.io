@@ -16,6 +16,7 @@ date = 2024-02-10T16:20:24+01:00
   - [Smartphone Apps and a Cross-Platform GUI App (F#)](#smartphone-apps-and-a-cross-platform-gui-app-f)
   - [Go Projects (Go)](#go-projects-go)
   - [Performance Optimizations (Go, Haskell, C)](#performance-optimizations-go-haskell-c)
+  - [PWAs (SolidJS, Typescript)](#pwas-solidjs-typescript)
   - [Flix (Programming Language) Projects (Flix)](#flix-programming-language-projects-flix)
   - [WASM (Web Assembly) GC Project (WASM)](#wasm-web-assembly-gc-project-wasm)
 
@@ -166,6 +167,10 @@ A gap buffer implementation in Go, which is a data structure used to hold editab
 This has been my go [*Oh, what a pun!*] at [The One Billion Row Challenge](https://github.com/gunnarmorling/1brc?tab=readme-ov-file#rules-and-limits). There you can see the step-by-step iterations I used to optimize a Go program from taking 100s to 3.2s for the parsing of 1 billion rows of data. And Haskell and C versions of the same program too.
 
 - [1 Billion Row Challenge GitHub](https://github.com/Release-Candidate/1-billion-row-challenge)
+
+### PWAs (SolidJS, Typescript)
+
+- The sources are at [Bisectriz GitHub](https://github.com/Release-Candidate/Bisectriz) the actual PWA at [Bisectriz PWA (GitHub Pages)](https://release-candidate.github.io/Bisectriz/).
 
 ### Flix (Programming Language) Projects (Flix)
 
