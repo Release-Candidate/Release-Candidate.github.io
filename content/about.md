@@ -170,6 +170,8 @@ This has been my go [*Oh, what a pun!*] at [The One Billion Row Challenge](https
 
 ### PWAs (SolidJS, Typescript)
 
+A progressive web app to display the angle bisector of two angles given by zodiac sign, degrees and minutes.
+
 - The sources are at [Bisectriz GitHub](https://github.com/Release-Candidate/Bisectriz) the actual PWA at [Bisectriz PWA (GitHub Pages)](https://release-candidate.github.io/Bisectriz/).
 
 ### Flix (Programming Language) Projects (Flix)
